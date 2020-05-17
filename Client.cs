@@ -33,7 +33,7 @@ public class Client
                 var writer = new StreamWriter(stream);
                 writer.AutoFlush = true;
 
-                Console.WriteLine("Please enter the number (0-10) : ");
+                Console.WriteLine("Please enter the number (0-10) / dig[domain.com] / curl[domain.com/myfile.htm] : ");
 
                 // 2. send
                 string str = Console.ReadLine();
